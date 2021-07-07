@@ -1,5 +1,5 @@
 # Tikal-Home-Assignment
-1. Create new redis-deployment.yaml file
+1. Create new redis-deployment.yaml file on your linux machine. 
 2. Copy the content of Redis-Deployment & ConfigMaps file to the file from the privios step.
 3. Run the command kubectl apply -f redis-deployment.yaml for applying the file
 4. Check if the pod is running by the command - kubectl get pod
