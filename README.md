@@ -16,11 +16,11 @@ $ chmod 700 get_helm.sh
 $ ./get_helm.sh
 
 Once you have Helm ready, you can add a chart repository by this command:
-$ helm repo add URL
+$ helm repo add + URL
 **for example:** helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 and then do: helm repo update. for make sure we get the latest list of charts
 
 The next step is to install a chart by the command: $ helm install bitnami/mysql --generate-name
 
-2. Of course that my recommended redis helm is the official one with the name "prometheus-redis-exporter"
-3. Helm Charts allow us to deploy the Redis Enterprise service using a single command to a Kubernetes namespace instead of deploy all the required Kubernetes resources manually
+2. Of course that my recommended redis helm is the official one with the name "prometheus-redis-exporter", because of the reason that it is maintained. In addition, new versions often comes out and his security level is high.
+3. 
