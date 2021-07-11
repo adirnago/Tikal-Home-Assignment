@@ -50,3 +50,11 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 4. git add-> git commit -> git push
 ![image](https://user-images.githubusercontent.com/53764172/125198699-b4f0f380-e26b-11eb-85f2-c41a321b4c0c.png)
+
+**Bonus:**
+1. Sign up on Code Inspector.
+2. In your profile, generate API keys.
+3. On GitHub, go in your repository settings, click on the Secrets  and create a new secret with the value of the access key generated at the previous step
+(Pay attention, you need two secrets, one for SECRET_KEY and one for ACCESS_KEY)
+4. Create a file .github/workflows/main.yml and insert the following content (take it from main.yml file)
+5. 
