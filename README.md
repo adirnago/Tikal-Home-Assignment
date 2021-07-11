@@ -58,5 +58,6 @@ jobs:
 (Pay attention, you need two secrets, one for SECRET_KEY and one for ACCESS_KEY)
 4. Create a file .github/workflows/main.yml and insert the following content (take it from main.yml file)
 
+You can see that my test is not passed the code quality
 ![image](https://user-images.githubusercontent.com/53764172/125200967-db1b9100-e275-11eb-9d62-79daa02a920d.png)
 
