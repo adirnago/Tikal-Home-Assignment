@@ -49,3 +49,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 4. git add-> git commit -> git push
+![image](https://user-images.githubusercontent.com/53764172/125198699-b4f0f380-e26b-11eb-85f2-c41a321b4c0c.png)
