@@ -29,7 +29,8 @@ In addition, new versions often comes out and his security level is high.
 
 **CI-CD with Github Actions:**
 1. Create a new file in the .github/workflows
-2. Copy the following YAML contents into the test.yml file:
+2. Clone the git repository to your linux machine
+3. Copy the following YAML contents into the test.yml file under test/spring-petclinic/.github/workflows:
 name: GitHub Actions Demo
 on: [push]
 jobs:
@@ -47,5 +48,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-3. Clone the git repository to your linux machine
-4. Under test/spring-petclinic/.github/workflows paste the test.yaml file
+4. git add-> git commit -> git push
