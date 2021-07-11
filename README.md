@@ -57,4 +57,3 @@ jobs:
 3. On GitHub, go in your repository settings, click on the Secrets  and create a new secret with the value of the access key generated at the previous step
 (Pay attention, you need two secrets, one for SECRET_KEY and one for ACCESS_KEY)
 4. Create a file .github/workflows/main.yml and insert the following content (take it from main.yml file)
-5. 
